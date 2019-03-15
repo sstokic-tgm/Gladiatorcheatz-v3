@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\SDK">
+      <UniqueIdentifier>{caba0316-6b37-4d3e-9abc-9d77311f5ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\SDK">
+      <UniqueIdentifier>{fa232790-4d72-4967-a7a7-33109f159a0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\IAppSystem.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IBaseClientDll.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ClientClass.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\interface.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\dt_recv.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientNetworkable.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientUnknown.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IHandleEntity.h">
+      <Filter>Headerdateien\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
